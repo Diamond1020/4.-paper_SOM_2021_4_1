@@ -27,7 +27,7 @@ class SOM(object):
         arr = [] 
         for x in X :
             arr1 = [] 
-            for y in Y :
+            for y in Y : 
                 arr1.append([x,y])
             arr.append(arr1)
 
