@@ -6,7 +6,7 @@ from PIL import Image
 import os
 import pyglet
 from matplotlib.colors import LinearSegmentedColormap
-
+ 
 class SOM(object):
     def __init__(self,Rows,Cols,Dim,data):
         self.lattice = (Rows,Cols,Dim)
